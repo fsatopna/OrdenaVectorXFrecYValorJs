@@ -87,15 +87,15 @@ fs.push(unNro);
 ```
 
 * ### Ordenamos vector de pares vector de pares {valor, frecuencia}.
-
 ```
 fs.sort(function(a,b){
     return (parseInt(a.frec * 100 + a.nro) - parseInt(b.frec * 100 + b.nro))
 })
 ```
 
+
+* ### Generamos salida ordenada desde vector de pares
 ```
-// 4: Generamos salida ordenada desde vector de pares
 var arrord = []
 for (var i = 0; i < fs.length; i++) {
     for(var j = 0; j < fs[i].frec;j++)
