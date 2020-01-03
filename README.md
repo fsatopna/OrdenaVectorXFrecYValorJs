@@ -101,11 +101,15 @@ for (var i = 0; i < fs.length; i++) {
     for(var j = 0; j < fs[i].frec;j++)
        arrord.push(fs[i].nro);
 }
+```
 
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Simplemente mostramos el resultado.
+```
 console.log("-------------------------------------- ");
 console.log("resultado:", arrord)
 console.log("Salida res:  ", arrord);
 ```
+***
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Alternativa de Ordenar el vector de pares  {desc frecuencia, asc valor}.
 ```
